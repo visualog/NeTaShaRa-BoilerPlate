@@ -1,0 +1,772 @@
+
+> my-app@0.1.0 dev /Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app
+> next dev
+
+   ▲ Next.js 15.5.2
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.21.26:3000
+
+ ✓ Starting...
+ ✓ Ready in 1003ms
+ ○ Compiling /foundation/typography ...
+ ✓ Compiled /foundation/typography in 558ms (653 modules)
+ GET /foundation/typography 200 in 700ms
+ ✓ Compiled /foundation/colors in 375ms (671 modules)
+parseOklch: Input: oklch(99.3% 0.0032 258.2), Parsed: L=99.3, C=0.0032, h=258.2, alpha=undefined
+oklchToHex input: L=99.3, C=0.0032, h=258.2, alpha=undefined
+parseOklch: Input: oklch(98.2% 0.0097 258.2), Parsed: L=98.2, C=0.0097, h=258.2, alpha=undefined
+oklchToHex input: L=98.2, C=0.0097, h=258.2, alpha=undefined
+parseOklch: Input: oklch(96% 0.0202 258.2), Parsed: L=96, C=0.0202, h=258.2, alpha=undefined
+oklchToHex input: L=96, C=0.0202, h=258.2, alpha=undefined
+parseOklch: Input: oklch(93.7% 0.0378 258.2), Parsed: L=93.7, C=0.0378, h=258.2, alpha=undefined
+oklchToHex input: L=93.7, C=0.0378, h=258.2, alpha=undefined
+parseOklch: Input: oklch(90.6% 0.0548 258.2), Parsed: L=90.6, C=0.0548, h=258.2, alpha=undefined
+oklchToHex input: L=90.6, C=0.0548, h=258.2, alpha=undefined
+parseOklch: Input: oklch(86.4% 0.0706 258.2), Parsed: L=86.4, C=0.0706, h=258.2, alpha=undefined
+oklchToHex input: L=86.4, C=0.0706, h=258.2, alpha=undefined
+parseOklch: Input: oklch(80.9% 0.0907 258.2), Parsed: L=80.9, C=0.0907, h=258.2, alpha=undefined
+oklchToHex input: L=80.9, C=0.0907, h=258.2, alpha=undefined
+parseOklch: Input: oklch(73.4% 0.1238 258.2), Parsed: L=73.4, C=0.1238, h=258.2, alpha=undefined
+oklchToHex input: L=73.4, C=0.1238, h=258.2, alpha=undefined
+parseOklch: Input: oklch(62% 0.1906 258.2), Parsed: L=62, C=0.1906, h=258.2, alpha=undefined
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=undefined
+parseOklch: Input: oklch(57.8% 0.1939 258.2), Parsed: L=57.8, C=0.1939, h=258.2, alpha=undefined
+oklchToHex input: L=57.8, C=0.1939, h=258.2, alpha=undefined
+parseOklch: Input: oklch(55.4% 0.1906 258.2), Parsed: L=55.4, C=0.1906, h=258.2, alpha=undefined
+oklchToHex input: L=55.4, C=0.1906, h=258.2, alpha=undefined
+parseOklch: Input: oklch(32.3% 0.099 258.2), Parsed: L=32.3, C=0.099, h=258.2, alpha=undefined
+oklchToHex input: L=32.3, C=0.099, h=258.2, alpha=undefined
+parseOklch: Input: oklch(0.0235 0.2667 0.7569 / 0.016), Parsed: L=0.0235, C=0.2667, h=0.7569, alpha=0.016
+oklchToHex input: L=0.0235, C=0.2667, h=0.7569, alpha=0.016
+parseOklch: Input: oklch(0.0235 0.302 0.7216 / 0.028), Parsed: L=0.0235, C=0.302, h=0.7216, alpha=0.028
+oklchToHex input: L=0.0235, C=0.302, h=0.7216, alpha=0.028
+parseOklch: Input: oklch(0.0078 0.2275 0.5059 / 0.071), Parsed: L=0.0078, C=0.2275, h=0.5059, alpha=0.071
+oklchToHex input: L=0.0078, C=0.2275, h=0.5059, alpha=0.071
+parseOklch: Input: oklch(0.0039 0.1882 0.4824 / 0.106), Parsed: L=0.0039, C=0.1882, h=0.4824, alpha=0.106
+oklchToHex input: L=0.0039, C=0.1882, h=0.4824, alpha=0.106
+parseOklch: Input: oklch(0.0078 0.2 0.4784 / 0.142), Parsed: L=0.0078, C=0.2, h=0.4784, alpha=0.142
+oklchToHex input: L=0.0078, C=0.2, h=0.4784, alpha=0.142
+parseOklch: Input: oklch(0.0039 0.1647 0.4353 / 0.173), Parsed: L=0.0039, C=0.1647, h=0.4353, alpha=0.173
+oklchToHex input: L=0.0039, C=0.1647, h=0.4353, alpha=0.173
+parseOklch: Input: oklch(0.0039 0.1647 0.4118 / 0.22), Parsed: L=0.0039, C=0.1647, h=0.4118, alpha=0.22
+oklchToHex input: L=0.0039, C=0.1647, h=0.4118, alpha=0.22
+parseOklch: Input: oklch(0.0039 0.1569 0.3882 / 0.306), Parsed: L=0.0039, C=0.1569, h=0.3882, alpha=0.306
+oklchToHex input: L=0.0039, C=0.1569, h=0.3882, alpha=0.306
+parseOklch: Input: oklch(0.0039 0.0902 0.2392 / 0.483), Parsed: L=0.0039, C=0.0902, h=0.2392, alpha=0.483
+oklchToHex input: L=0.0039, C=0.0902, h=0.2392, alpha=0.483
+parseOklch: Input: oklch(0 0.0863 0.2039 / 0.522), Parsed: L=0, C=0.0863, h=0.2039, alpha=0.522
+oklchToHex input: L=0, C=0.0863, h=0.2039, alpha=0.522
+parseOklch: Input: oklch(0 0.0549 0.1412 / 0.636), Parsed: L=0, C=0.0549, h=0.1412, alpha=0.636
+oklchToHex input: L=0, C=0.0549, h=0.1412, alpha=0.636
+parseOklch: Input: oklch(0 0.0275 0.0667 / 0.895), Parsed: L=0, C=0.0275, h=0.0667, alpha=0.895
+oklchToHex input: L=0, C=0.0275, h=0.0667, alpha=0.895
+parseOklch: Input: oklch(97% 0.02 140), Parsed: L=97, C=0.02, h=140, alpha=undefined
+oklchToHex input: L=97, C=0.02, h=140, alpha=undefined
+parseOklch: Input: oklch(90% 0.08 140), Parsed: L=90, C=0.08, h=140, alpha=undefined
+oklchToHex input: L=90, C=0.08, h=140, alpha=undefined
+parseOklch: Input: oklch(80% 0.15 140), Parsed: L=80, C=0.15, h=140, alpha=undefined
+oklchToHex input: L=80, C=0.15, h=140, alpha=undefined
+parseOklch: Input: oklch(70% 0.2 140), Parsed: L=70, C=0.2, h=140, alpha=undefined
+oklchToHex input: L=70, C=0.2, h=140, alpha=undefined
+parseOklch: Input: oklch(60% 0.22 140), Parsed: L=60, C=0.22, h=140, alpha=undefined
+oklchToHex input: L=60, C=0.22, h=140, alpha=undefined
+parseOklch: Input: oklch(50% 0.2 140), Parsed: L=50, C=0.2, h=140, alpha=undefined
+oklchToHex input: L=50, C=0.2, h=140, alpha=undefined
+parseOklch: Input: oklch(40% 0.18 140), Parsed: L=40, C=0.18, h=140, alpha=undefined
+oklchToHex input: L=40, C=0.18, h=140, alpha=undefined
+parseOklch: Input: oklch(30% 0.15 140), Parsed: L=30, C=0.15, h=140, alpha=undefined
+oklchToHex input: L=30, C=0.15, h=140, alpha=undefined
+parseOklch: Input: oklch(20% 0.1 140), Parsed: L=20, C=0.1, h=140, alpha=undefined
+oklchToHex input: L=20, C=0.1, h=140, alpha=undefined
+parseOklch: Input: oklch(10% 0.05 140), Parsed: L=10, C=0.05, h=140, alpha=undefined
+oklchToHex input: L=10, C=0.05, h=140, alpha=undefined
+parseOklch: Input: oklch(97% 0.02 80), Parsed: L=97, C=0.02, h=80, alpha=undefined
+oklchToHex input: L=97, C=0.02, h=80, alpha=undefined
+parseOklch: Input: oklch(90% 0.08 80), Parsed: L=90, C=0.08, h=80, alpha=undefined
+oklchToHex input: L=90, C=0.08, h=80, alpha=undefined
+parseOklch: Input: oklch(80% 0.15 80), Parsed: L=80, C=0.15, h=80, alpha=undefined
+oklchToHex input: L=80, C=0.15, h=80, alpha=undefined
+parseOklch: Input: oklch(70% 0.2 80), Parsed: L=70, C=0.2, h=80, alpha=undefined
+oklchToHex input: L=70, C=0.2, h=80, alpha=undefined
+parseOklch: Input: oklch(60% 0.22 80), Parsed: L=60, C=0.22, h=80, alpha=undefined
+oklchToHex input: L=60, C=0.22, h=80, alpha=undefined
+parseOklch: Input: oklch(50% 0.2 80), Parsed: L=50, C=0.2, h=80, alpha=undefined
+oklchToHex input: L=50, C=0.2, h=80, alpha=undefined
+parseOklch: Input: oklch(40% 0.18 80), Parsed: L=40, C=0.18, h=80, alpha=undefined
+oklchToHex input: L=40, C=0.18, h=80, alpha=undefined
+parseOklch: Input: oklch(30% 0.15 80), Parsed: L=30, C=0.15, h=80, alpha=undefined
+oklchToHex input: L=30, C=0.15, h=80, alpha=undefined
+parseOklch: Input: oklch(20% 0.1 80), Parsed: L=20, C=0.1, h=80, alpha=undefined
+oklchToHex input: L=20, C=0.1, h=80, alpha=undefined
+parseOklch: Input: oklch(10% 0.05 80), Parsed: L=10, C=0.05, h=80, alpha=undefined
+oklchToHex input: L=10, C=0.05, h=80, alpha=undefined
+parseOklch: Input: oklch(97% 0.02 30), Parsed: L=97, C=0.02, h=30, alpha=undefined
+oklchToHex input: L=97, C=0.02, h=30, alpha=undefined
+parseOklch: Input: oklch(90% 0.08 30), Parsed: L=90, C=0.08, h=30, alpha=undefined
+oklchToHex input: L=90, C=0.08, h=30, alpha=undefined
+parseOklch: Input: oklch(80% 0.15 30), Parsed: L=80, C=0.15, h=30, alpha=undefined
+oklchToHex input: L=80, C=0.15, h=30, alpha=undefined
+parseOklch: Input: oklch(70% 0.2 30), Parsed: L=70, C=0.2, h=30, alpha=undefined
+oklchToHex input: L=70, C=0.2, h=30, alpha=undefined
+parseOklch: Input: oklch(60% 0.22 30), Parsed: L=60, C=0.22, h=30, alpha=undefined
+oklchToHex input: L=60, C=0.22, h=30, alpha=undefined
+parseOklch: Input: oklch(50% 0.2 30), Parsed: L=50, C=0.2, h=30, alpha=undefined
+oklchToHex input: L=50, C=0.2, h=30, alpha=undefined
+parseOklch: Input: oklch(40% 0.18 30), Parsed: L=40, C=0.18, h=30, alpha=undefined
+oklchToHex input: L=40, C=0.18, h=30, alpha=undefined
+parseOklch: Input: oklch(30% 0.15 30), Parsed: L=30, C=0.15, h=30, alpha=undefined
+oklchToHex input: L=30, C=0.15, h=30, alpha=undefined
+parseOklch: Input: oklch(20% 0.1 30), Parsed: L=20, C=0.1, h=30, alpha=undefined
+oklchToHex input: L=20, C=0.1, h=30, alpha=undefined
+parseOklch: Input: oklch(10% 0.05 30), Parsed: L=10, C=0.05, h=30, alpha=undefined
+oklchToHex input: L=10, C=0.05, h=30, alpha=undefined
+parseOklch: Input: oklch(97% 0.02 220), Parsed: L=97, C=0.02, h=220, alpha=undefined
+oklchToHex input: L=97, C=0.02, h=220, alpha=undefined
+parseOklch: Input: oklch(90% 0.08 220), Parsed: L=90, C=0.08, h=220, alpha=undefined
+oklchToHex input: L=90, C=0.08, h=220, alpha=undefined
+parseOklch: Input: oklch(80% 0.15 220), Parsed: L=80, C=0.15, h=220, alpha=undefined
+oklchToHex input: L=80, C=0.15, h=220, alpha=undefined
+parseOklch: Input: oklch(70% 0.2 220), Parsed: L=70, C=0.2, h=220, alpha=undefined
+oklchToHex input: L=70, C=0.2, h=220, alpha=undefined
+parseOklch: Input: oklch(60% 0.22 220), Parsed: L=60, C=0.22, h=220, alpha=undefined
+oklchToHex input: L=60, C=0.22, h=220, alpha=undefined
+parseOklch: Input: oklch(50% 0.2 220), Parsed: L=50, C=0.2, h=220, alpha=undefined
+oklchToHex input: L=50, C=0.2, h=220, alpha=undefined
+parseOklch: Input: oklch(40% 0.18 220), Parsed: L=40, C=0.18, h=220, alpha=undefined
+oklchToHex input: L=40, C=0.18, h=220, alpha=undefined
+parseOklch: Input: oklch(30% 0.15 220), Parsed: L=30, C=0.15, h=220, alpha=undefined
+oklchToHex input: L=30, C=0.15, h=220, alpha=undefined
+parseOklch: Input: oklch(20% 0.1 220), Parsed: L=20, C=0.1, h=220, alpha=undefined
+oklchToHex input: L=20, C=0.1, h=220, alpha=undefined
+parseOklch: Input: oklch(10% 0.05 220), Parsed: L=10, C=0.05, h=220, alpha=undefined
+oklchToHex input: L=10, C=0.05, h=220, alpha=undefined
+parseOklch: Input: oklch(99.2% 0.0031 256.4), Parsed: L=99.2, C=0.0031, h=256.4, alpha=undefined
+oklchToHex input: L=99.2, C=0.0031, h=256.4, alpha=undefined
+parseOklch: Input: oklch(98.3% 0.0056 256.4), Parsed: L=98.3, C=0.0056, h=256.4, alpha=undefined
+oklchToHex input: L=98.3, C=0.0056, h=256.4, alpha=undefined
+parseOklch: Input: oklch(95.6% 0.0102 256.4), Parsed: L=95.6, C=0.0102, h=256.4, alpha=undefined
+oklchToHex input: L=95.6, C=0.0102, h=256.4, alpha=undefined
+parseOklch: Input: oklch(93.2% 0.0134 256.4), Parsed: L=93.2, C=0.0134, h=256.4, alpha=undefined
+oklchToHex input: L=93.2, C=0.0134, h=256.4, alpha=undefined
+parseOklch: Input: oklch(90.9% 0.0173 256.4), Parsed: L=90.9, C=0.0173, h=256.4, alpha=undefined
+oklchToHex input: L=90.9, C=0.0173, h=256.4, alpha=undefined
+parseOklch: Input: oklch(88.6% 0.0199 256.4), Parsed: L=88.6, C=0.0199, h=256.4, alpha=undefined
+oklchToHex input: L=88.6, C=0.0199, h=256.4, alpha=undefined
+parseOklch: Input: oklch(85.4% 0.0245 256.4), Parsed: L=85.4, C=0.0245, h=256.4, alpha=undefined
+oklchToHex input: L=85.4, C=0.0245, h=256.4, alpha=undefined
+parseOklch: Input: oklch(79.4% 0.0332 256.4), Parsed: L=79.4, C=0.0332, h=256.4, alpha=undefined
+oklchToHex input: L=79.4, C=0.0332, h=256.4, alpha=undefined
+parseOklch: Input: oklch(64.6% 0.0335 256.4), Parsed: L=64.6, C=0.0335, h=256.4, alpha=undefined
+oklchToHex input: L=64.6, C=0.0335, h=256.4, alpha=undefined
+parseOklch: Input: oklch(61.1% 0.0318 256.4), Parsed: L=61.1, C=0.0318, h=256.4, alpha=undefined
+oklchToHex input: L=61.1, C=0.0318, h=256.4, alpha=undefined
+parseOklch: Input: oklch(50.5% 0.0275 256.4), Parsed: L=50.5, C=0.0275, h=256.4, alpha=undefined
+oklchToHex input: L=50.5, C=0.0275, h=256.4, alpha=undefined
+parseOklch: Input: oklch(24.5% 0.023 256.4), Parsed: L=24.5, C=0.023, h=256.4, alpha=undefined
+oklchToHex input: L=24.5, C=0.023, h=256.4, alpha=undefined
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.1), Parsed: L=62, C=0.1906, h=258.2, alpha=0.1
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.1
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.2), Parsed: L=62, C=0.1906, h=258.2, alpha=0.2
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.2
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.3), Parsed: L=62, C=0.1906, h=258.2, alpha=0.3
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.3
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.4), Parsed: L=62, C=0.1906, h=258.2, alpha=0.4
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.4
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.5), Parsed: L=62, C=0.1906, h=258.2, alpha=0.5
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.5
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.6), Parsed: L=62, C=0.1906, h=258.2, alpha=0.6
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.6
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.7), Parsed: L=62, C=0.1906, h=258.2, alpha=0.7
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.7
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.8), Parsed: L=62, C=0.1906, h=258.2, alpha=0.8
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.8
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.9), Parsed: L=62, C=0.1906, h=258.2, alpha=0.9
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.9
+parseOklch: Input: oklch(62% 0.1906 258.2 / 1), Parsed: L=62, C=0.1906, h=258.2, alpha=1
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=1
+parseOklch: Input: oklch(55.4% 0.1906 258.2 / 1), Parsed: L=55.4, C=0.1906, h=258.2, alpha=1
+oklchToHex input: L=55.4, C=0.1906, h=258.2, alpha=1
+parseOklch: Input: oklch(32.3% 0.099 258.2 / 1), Parsed: L=32.3, C=0.099, h=258.2, alpha=1
+oklchToHex input: L=32.3, C=0.099, h=258.2, alpha=1
+ GET /foundation/colors 200 in 469ms
+ GET /foundation/colors 200 in 289ms
+ ✓ Compiled /favicon.ico in 163ms (428 modules)
+ GET /favicon.ico 200 in 253ms
+ ✓ Compiled in 220ms (668 modules)
+parseOklch: Input: oklch(99.3% 0.0032 258.2), Parsed: L=99.3, C=0.0032, h=258.2, alpha=undefined
+oklchToHex input: L=99.3, C=0.0032, h=258.2, alpha=undefined
+parseOklch: Input: oklch(98.2% 0.0097 258.2), Parsed: L=98.2, C=0.0097, h=258.2, alpha=undefined
+oklchToHex input: L=98.2, C=0.0097, h=258.2, alpha=undefined
+parseOklch: Input: oklch(96% 0.0202 258.2), Parsed: L=96, C=0.0202, h=258.2, alpha=undefined
+oklchToHex input: L=96, C=0.0202, h=258.2, alpha=undefined
+parseOklch: Input: oklch(93.7% 0.0378 258.2), Parsed: L=93.7, C=0.0378, h=258.2, alpha=undefined
+oklchToHex input: L=93.7, C=0.0378, h=258.2, alpha=undefined
+parseOklch: Input: oklch(90.6% 0.0548 258.2), Parsed: L=90.6, C=0.0548, h=258.2, alpha=undefined
+oklchToHex input: L=90.6, C=0.0548, h=258.2, alpha=undefined
+parseOklch: Input: oklch(86.4% 0.0706 258.2), Parsed: L=86.4, C=0.0706, h=258.2, alpha=undefined
+oklchToHex input: L=86.4, C=0.0706, h=258.2, alpha=undefined
+parseOklch: Input: oklch(80.9% 0.0907 258.2), Parsed: L=80.9, C=0.0907, h=258.2, alpha=undefined
+oklchToHex input: L=80.9, C=0.0907, h=258.2, alpha=undefined
+parseOklch: Input: oklch(73.4% 0.1238 258.2), Parsed: L=73.4, C=0.1238, h=258.2, alpha=undefined
+oklchToHex input: L=73.4, C=0.1238, h=258.2, alpha=undefined
+parseOklch: Input: oklch(62% 0.1906 258.2), Parsed: L=62, C=0.1906, h=258.2, alpha=undefined
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=undefined
+parseOklch: Input: oklch(57.8% 0.1939 258.2), Parsed: L=57.8, C=0.1939, h=258.2, alpha=undefined
+oklchToHex input: L=57.8, C=0.1939, h=258.2, alpha=undefined
+parseOklch: Input: oklch(55.4% 0.1906 258.2), Parsed: L=55.4, C=0.1906, h=258.2, alpha=undefined
+oklchToHex input: L=55.4, C=0.1906, h=258.2, alpha=undefined
+parseOklch: Input: oklch(32.3% 0.099 258.2), Parsed: L=32.3, C=0.099, h=258.2, alpha=undefined
+oklchToHex input: L=32.3, C=0.099, h=258.2, alpha=undefined
+parseOklch: Input: oklch(0.0235 0.2667 0.7569 / 0.016), Parsed: L=0.0235, C=0.2667, h=0.7569, alpha=0.016
+oklchToHex input: L=0.0235, C=0.2667, h=0.7569, alpha=0.016
+parseOklch: Input: oklch(0.0235 0.302 0.7216 / 0.028), Parsed: L=0.0235, C=0.302, h=0.7216, alpha=0.028
+oklchToHex input: L=0.0235, C=0.302, h=0.7216, alpha=0.028
+parseOklch: Input: oklch(0.0078 0.2275 0.5059 / 0.071), Parsed: L=0.0078, C=0.2275, h=0.5059, alpha=0.071
+oklchToHex input: L=0.0078, C=0.2275, h=0.5059, alpha=0.071
+parseOklch: Input: oklch(0.0039 0.1882 0.4824 / 0.106), Parsed: L=0.0039, C=0.1882, h=0.4824, alpha=0.106
+oklchToHex input: L=0.0039, C=0.1882, h=0.4824, alpha=0.106
+parseOklch: Input: oklch(0.0078 0.2 0.4784 / 0.142), Parsed: L=0.0078, C=0.2, h=0.4784, alpha=0.142
+oklchToHex input: L=0.0078, C=0.2, h=0.4784, alpha=0.142
+parseOklch: Input: oklch(0.0039 0.1647 0.4353 / 0.173), Parsed: L=0.0039, C=0.1647, h=0.4353, alpha=0.173
+oklchToHex input: L=0.0039, C=0.1647, h=0.4353, alpha=0.173
+parseOklch: Input: oklch(0.0039 0.1647 0.4118 / 0.22), Parsed: L=0.0039, C=0.1647, h=0.4118, alpha=0.22
+oklchToHex input: L=0.0039, C=0.1647, h=0.4118, alpha=0.22
+parseOklch: Input: oklch(0.0039 0.1569 0.3882 / 0.306), Parsed: L=0.0039, C=0.1569, h=0.3882, alpha=0.306
+oklchToHex input: L=0.0039, C=0.1569, h=0.3882, alpha=0.306
+parseOklch: Input: oklch(0.0039 0.0902 0.2392 / 0.483), Parsed: L=0.0039, C=0.0902, h=0.2392, alpha=0.483
+oklchToHex input: L=0.0039, C=0.0902, h=0.2392, alpha=0.483
+parseOklch: Input: oklch(0 0.0863 0.2039 / 0.522), Parsed: L=0, C=0.0863, h=0.2039, alpha=0.522
+oklchToHex input: L=0, C=0.0863, h=0.2039, alpha=0.522
+parseOklch: Input: oklch(0 0.0549 0.1412 / 0.636), Parsed: L=0, C=0.0549, h=0.1412, alpha=0.636
+oklchToHex input: L=0, C=0.0549, h=0.1412, alpha=0.636
+parseOklch: Input: oklch(0 0.0275 0.0667 / 0.895), Parsed: L=0, C=0.0275, h=0.0667, alpha=0.895
+oklchToHex input: L=0, C=0.0275, h=0.0667, alpha=0.895
+parseOklch: Input: oklch(97% 0.02 140), Parsed: L=97, C=0.02, h=140, alpha=undefined
+oklchToHex input: L=97, C=0.02, h=140, alpha=undefined
+parseOklch: Input: oklch(90% 0.08 140), Parsed: L=90, C=0.08, h=140, alpha=undefined
+oklchToHex input: L=90, C=0.08, h=140, alpha=undefined
+parseOklch: Input: oklch(80% 0.15 140), Parsed: L=80, C=0.15, h=140, alpha=undefined
+oklchToHex input: L=80, C=0.15, h=140, alpha=undefined
+parseOklch: Input: oklch(70% 0.2 140), Parsed: L=70, C=0.2, h=140, alpha=undefined
+oklchToHex input: L=70, C=0.2, h=140, alpha=undefined
+parseOklch: Input: oklch(60% 0.22 140), Parsed: L=60, C=0.22, h=140, alpha=undefined
+oklchToHex input: L=60, C=0.22, h=140, alpha=undefined
+parseOklch: Input: oklch(50% 0.2 140), Parsed: L=50, C=0.2, h=140, alpha=undefined
+oklchToHex input: L=50, C=0.2, h=140, alpha=undefined
+parseOklch: Input: oklch(40% 0.18 140), Parsed: L=40, C=0.18, h=140, alpha=undefined
+oklchToHex input: L=40, C=0.18, h=140, alpha=undefined
+parseOklch: Input: oklch(30% 0.15 140), Parsed: L=30, C=0.15, h=140, alpha=undefined
+oklchToHex input: L=30, C=0.15, h=140, alpha=undefined
+parseOklch: Input: oklch(20% 0.1 140), Parsed: L=20, C=0.1, h=140, alpha=undefined
+oklchToHex input: L=20, C=0.1, h=140, alpha=undefined
+parseOklch: Input: oklch(10% 0.05 140), Parsed: L=10, C=0.05, h=140, alpha=undefined
+oklchToHex input: L=10, C=0.05, h=140, alpha=undefined
+parseOklch: Input: oklch(97% 0.02 80), Parsed: L=97, C=0.02, h=80, alpha=undefined
+oklchToHex input: L=97, C=0.02, h=80, alpha=undefined
+parseOklch: Input: oklch(90% 0.08 80), Parsed: L=90, C=0.08, h=80, alpha=undefined
+oklchToHex input: L=90, C=0.08, h=80, alpha=undefined
+parseOklch: Input: oklch(80% 0.15 80), Parsed: L=80, C=0.15, h=80, alpha=undefined
+oklchToHex input: L=80, C=0.15, h=80, alpha=undefined
+parseOklch: Input: oklch(70% 0.2 80), Parsed: L=70, C=0.2, h=80, alpha=undefined
+oklchToHex input: L=70, C=0.2, h=80, alpha=undefined
+parseOklch: Input: oklch(60% 0.22 80), Parsed: L=60, C=0.22, h=80, alpha=undefined
+oklchToHex input: L=60, C=0.22, h=80, alpha=undefined
+parseOklch: Input: oklch(50% 0.2 80), Parsed: L=50, C=0.2, h=80, alpha=undefined
+oklchToHex input: L=50, C=0.2, h=80, alpha=undefined
+parseOklch: Input: oklch(40% 0.18 80), Parsed: L=40, C=0.18, h=80, alpha=undefined
+oklchToHex input: L=40, C=0.18, h=80, alpha=undefined
+parseOklch: Input: oklch(30% 0.15 80), Parsed: L=30, C=0.15, h=80, alpha=undefined
+oklchToHex input: L=30, C=0.15, h=80, alpha=undefined
+parseOklch: Input: oklch(20% 0.1 80), Parsed: L=20, C=0.1, h=80, alpha=undefined
+oklchToHex input: L=20, C=0.1, h=80, alpha=undefined
+parseOklch: Input: oklch(10% 0.05 80), Parsed: L=10, C=0.05, h=80, alpha=undefined
+oklchToHex input: L=10, C=0.05, h=80, alpha=undefined
+parseOklch: Input: oklch(97% 0.02 30), Parsed: L=97, C=0.02, h=30, alpha=undefined
+oklchToHex input: L=97, C=0.02, h=30, alpha=undefined
+parseOklch: Input: oklch(90% 0.08 30), Parsed: L=90, C=0.08, h=30, alpha=undefined
+oklchToHex input: L=90, C=0.08, h=30, alpha=undefined
+parseOklch: Input: oklch(80% 0.15 30), Parsed: L=80, C=0.15, h=30, alpha=undefined
+oklchToHex input: L=80, C=0.15, h=30, alpha=undefined
+parseOklch: Input: oklch(70% 0.2 30), Parsed: L=70, C=0.2, h=30, alpha=undefined
+oklchToHex input: L=70, C=0.2, h=30, alpha=undefined
+parseOklch: Input: oklch(60% 0.22 30), Parsed: L=60, C=0.22, h=30, alpha=undefined
+oklchToHex input: L=60, C=0.22, h=30, alpha=undefined
+parseOklch: Input: oklch(50% 0.2 30), Parsed: L=50, C=0.2, h=30, alpha=undefined
+oklchToHex input: L=50, C=0.2, h=30, alpha=undefined
+parseOklch: Input: oklch(40% 0.18 30), Parsed: L=40, C=0.18, h=30, alpha=undefined
+oklchToHex input: L=40, C=0.18, h=30, alpha=undefined
+parseOklch: Input: oklch(30% 0.15 30), Parsed: L=30, C=0.15, h=30, alpha=undefined
+oklchToHex input: L=30, C=0.15, h=30, alpha=undefined
+parseOklch: Input: oklch(20% 0.1 30), Parsed: L=20, C=0.1, h=30, alpha=undefined
+oklchToHex input: L=20, C=0.1, h=30, alpha=undefined
+parseOklch: Input: oklch(10% 0.05 30), Parsed: L=10, C=0.05, h=30, alpha=undefined
+oklchToHex input: L=10, C=0.05, h=30, alpha=undefined
+parseOklch: Input: oklch(97% 0.02 220), Parsed: L=97, C=0.02, h=220, alpha=undefined
+oklchToHex input: L=97, C=0.02, h=220, alpha=undefined
+parseOklch: Input: oklch(90% 0.08 220), Parsed: L=90, C=0.08, h=220, alpha=undefined
+oklchToHex input: L=90, C=0.08, h=220, alpha=undefined
+parseOklch: Input: oklch(80% 0.15 220), Parsed: L=80, C=0.15, h=220, alpha=undefined
+oklchToHex input: L=80, C=0.15, h=220, alpha=undefined
+parseOklch: Input: oklch(70% 0.2 220), Parsed: L=70, C=0.2, h=220, alpha=undefined
+oklchToHex input: L=70, C=0.2, h=220, alpha=undefined
+parseOklch: Input: oklch(60% 0.22 220), Parsed: L=60, C=0.22, h=220, alpha=undefined
+oklchToHex input: L=60, C=0.22, h=220, alpha=undefined
+parseOklch: Input: oklch(50% 0.2 220), Parsed: L=50, C=0.2, h=220, alpha=undefined
+oklchToHex input: L=50, C=0.2, h=220, alpha=undefined
+parseOklch: Input: oklch(40% 0.18 220), Parsed: L=40, C=0.18, h=220, alpha=undefined
+oklchToHex input: L=40, C=0.18, h=220, alpha=undefined
+parseOklch: Input: oklch(30% 0.15 220), Parsed: L=30, C=0.15, h=220, alpha=undefined
+oklchToHex input: L=30, C=0.15, h=220, alpha=undefined
+parseOklch: Input: oklch(20% 0.1 220), Parsed: L=20, C=0.1, h=220, alpha=undefined
+oklchToHex input: L=20, C=0.1, h=220, alpha=undefined
+parseOklch: Input: oklch(10% 0.05 220), Parsed: L=10, C=0.05, h=220, alpha=undefined
+oklchToHex input: L=10, C=0.05, h=220, alpha=undefined
+parseOklch: Input: oklch(99.2% 0.0031 256.4), Parsed: L=99.2, C=0.0031, h=256.4, alpha=undefined
+oklchToHex input: L=99.2, C=0.0031, h=256.4, alpha=undefined
+parseOklch: Input: oklch(98.3% 0.0056 256.4), Parsed: L=98.3, C=0.0056, h=256.4, alpha=undefined
+oklchToHex input: L=98.3, C=0.0056, h=256.4, alpha=undefined
+parseOklch: Input: oklch(95.6% 0.0102 256.4), Parsed: L=95.6, C=0.0102, h=256.4, alpha=undefined
+oklchToHex input: L=95.6, C=0.0102, h=256.4, alpha=undefined
+parseOklch: Input: oklch(93.2% 0.0134 256.4), Parsed: L=93.2, C=0.0134, h=256.4, alpha=undefined
+oklchToHex input: L=93.2, C=0.0134, h=256.4, alpha=undefined
+parseOklch: Input: oklch(90.9% 0.0173 256.4), Parsed: L=90.9, C=0.0173, h=256.4, alpha=undefined
+oklchToHex input: L=90.9, C=0.0173, h=256.4, alpha=undefined
+parseOklch: Input: oklch(88.6% 0.0199 256.4), Parsed: L=88.6, C=0.0199, h=256.4, alpha=undefined
+oklchToHex input: L=88.6, C=0.0199, h=256.4, alpha=undefined
+parseOklch: Input: oklch(85.4% 0.0245 256.4), Parsed: L=85.4, C=0.0245, h=256.4, alpha=undefined
+oklchToHex input: L=85.4, C=0.0245, h=256.4, alpha=undefined
+parseOklch: Input: oklch(79.4% 0.0332 256.4), Parsed: L=79.4, C=0.0332, h=256.4, alpha=undefined
+oklchToHex input: L=79.4, C=0.0332, h=256.4, alpha=undefined
+parseOklch: Input: oklch(64.6% 0.0335 256.4), Parsed: L=64.6, C=0.0335, h=256.4, alpha=undefined
+oklchToHex input: L=64.6, C=0.0335, h=256.4, alpha=undefined
+parseOklch: Input: oklch(61.1% 0.0318 256.4), Parsed: L=61.1, C=0.0318, h=256.4, alpha=undefined
+oklchToHex input: L=61.1, C=0.0318, h=256.4, alpha=undefined
+parseOklch: Input: oklch(50.5% 0.0275 256.4), Parsed: L=50.5, C=0.0275, h=256.4, alpha=undefined
+oklchToHex input: L=50.5, C=0.0275, h=256.4, alpha=undefined
+parseOklch: Input: oklch(24.5% 0.023 256.4), Parsed: L=24.5, C=0.023, h=256.4, alpha=undefined
+oklchToHex input: L=24.5, C=0.023, h=256.4, alpha=undefined
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.1), Parsed: L=62, C=0.1906, h=258.2, alpha=0.1
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.1
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.2), Parsed: L=62, C=0.1906, h=258.2, alpha=0.2
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.2
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.3), Parsed: L=62, C=0.1906, h=258.2, alpha=0.3
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.3
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.4), Parsed: L=62, C=0.1906, h=258.2, alpha=0.4
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.4
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.5), Parsed: L=62, C=0.1906, h=258.2, alpha=0.5
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.5
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.6), Parsed: L=62, C=0.1906, h=258.2, alpha=0.6
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.6
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.7), Parsed: L=62, C=0.1906, h=258.2, alpha=0.7
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.7
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.8), Parsed: L=62, C=0.1906, h=258.2, alpha=0.8
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.8
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.9), Parsed: L=62, C=0.1906, h=258.2, alpha=0.9
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.9
+parseOklch: Input: oklch(62% 0.1906 258.2 / 1), Parsed: L=62, C=0.1906, h=258.2, alpha=1
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=1
+parseOklch: Input: oklch(55.4% 0.1906 258.2 / 1), Parsed: L=55.4, C=0.1906, h=258.2, alpha=1
+oklchToHex input: L=55.4, C=0.1906, h=258.2, alpha=1
+parseOklch: Input: oklch(32.3% 0.099 258.2 / 1), Parsed: L=32.3, C=0.099, h=258.2, alpha=1
+oklchToHex input: L=32.3, C=0.099, h=258.2, alpha=1
+ GET /foundation/colors 200 in 165ms
+ GET /foundation/colors 200 in 287ms
+ ✓ Compiled /favicon.ico in 106ms (425 modules)
+ GET /favicon.ico 200 in 171ms
+parseOklch: Input: oklch(99.3% 0.0032 258.2), Parsed: L=99.3, C=0.0032, h=258.2, alpha=undefined
+oklchToHex input: L=99.3, C=0.0032, h=258.2, alpha=undefined
+parseOklch: Input: oklch(98.2% 0.0097 258.2), Parsed: L=98.2, C=0.0097, h=258.2, alpha=undefined
+oklchToHex input: L=98.2, C=0.0097, h=258.2, alpha=undefined
+parseOklch: Input: oklch(96% 0.0202 258.2), Parsed: L=96, C=0.0202, h=258.2, alpha=undefined
+oklchToHex input: L=96, C=0.0202, h=258.2, alpha=undefined
+parseOklch: Input: oklch(93.7% 0.0378 258.2), Parsed: L=93.7, C=0.0378, h=258.2, alpha=undefined
+oklchToHex input: L=93.7, C=0.0378, h=258.2, alpha=undefined
+parseOklch: Input: oklch(90.6% 0.0548 258.2), Parsed: L=90.6, C=0.0548, h=258.2, alpha=undefined
+oklchToHex input: L=90.6, C=0.0548, h=258.2, alpha=undefined
+parseOklch: Input: oklch(86.4% 0.0706 258.2), Parsed: L=86.4, C=0.0706, h=258.2, alpha=undefined
+oklchToHex input: L=86.4, C=0.0706, h=258.2, alpha=undefined
+parseOklch: Input: oklch(80.9% 0.0907 258.2), Parsed: L=80.9, C=0.0907, h=258.2, alpha=undefined
+oklchToHex input: L=80.9, C=0.0907, h=258.2, alpha=undefined
+parseOklch: Input: oklch(73.4% 0.1238 258.2), Parsed: L=73.4, C=0.1238, h=258.2, alpha=undefined
+oklchToHex input: L=73.4, C=0.1238, h=258.2, alpha=undefined
+parseOklch: Input: oklch(62% 0.1906 258.2), Parsed: L=62, C=0.1906, h=258.2, alpha=undefined
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=undefined
+parseOklch: Input: oklch(57.8% 0.1939 258.2), Parsed: L=57.8, C=0.1939, h=258.2, alpha=undefined
+oklchToHex input: L=57.8, C=0.1939, h=258.2, alpha=undefined
+parseOklch: Input: oklch(55.4% 0.1906 258.2), Parsed: L=55.4, C=0.1906, h=258.2, alpha=undefined
+oklchToHex input: L=55.4, C=0.1906, h=258.2, alpha=undefined
+parseOklch: Input: oklch(32.3% 0.099 258.2), Parsed: L=32.3, C=0.099, h=258.2, alpha=undefined
+oklchToHex input: L=32.3, C=0.099, h=258.2, alpha=undefined
+parseOklch: Input: oklch(0.0235 0.2667 0.7569 / 0.016), Parsed: L=0.0235, C=0.2667, h=0.7569, alpha=0.016
+oklchToHex input: L=0.0235, C=0.2667, h=0.7569, alpha=0.016
+parseOklch: Input: oklch(0.0235 0.302 0.7216 / 0.028), Parsed: L=0.0235, C=0.302, h=0.7216, alpha=0.028
+oklchToHex input: L=0.0235, C=0.302, h=0.7216, alpha=0.028
+parseOklch: Input: oklch(0.0078 0.2275 0.5059 / 0.071), Parsed: L=0.0078, C=0.2275, h=0.5059, alpha=0.071
+oklchToHex input: L=0.0078, C=0.2275, h=0.5059, alpha=0.071
+parseOklch: Input: oklch(0.0039 0.1882 0.4824 / 0.106), Parsed: L=0.0039, C=0.1882, h=0.4824, alpha=0.106
+oklchToHex input: L=0.0039, C=0.1882, h=0.4824, alpha=0.106
+parseOklch: Input: oklch(0.0078 0.2 0.4784 / 0.142), Parsed: L=0.0078, C=0.2, h=0.4784, alpha=0.142
+oklchToHex input: L=0.0078, C=0.2, h=0.4784, alpha=0.142
+parseOklch: Input: oklch(0.0039 0.1647 0.4353 / 0.173), Parsed: L=0.0039, C=0.1647, h=0.4353, alpha=0.173
+oklchToHex input: L=0.0039, C=0.1647, h=0.4353, alpha=0.173
+parseOklch: Input: oklch(0.0039 0.1647 0.4118 / 0.22), Parsed: L=0.0039, C=0.1647, h=0.4118, alpha=0.22
+oklchToHex input: L=0.0039, C=0.1647, h=0.4118, alpha=0.22
+parseOklch: Input: oklch(0.0039 0.1569 0.3882 / 0.306), Parsed: L=0.0039, C=0.1569, h=0.3882, alpha=0.306
+oklchToHex input: L=0.0039, C=0.1569, h=0.3882, alpha=0.306
+parseOklch: Input: oklch(0.0039 0.0902 0.2392 / 0.483), Parsed: L=0.0039, C=0.0902, h=0.2392, alpha=0.483
+oklchToHex input: L=0.0039, C=0.0902, h=0.2392, alpha=0.483
+parseOklch: Input: oklch(0 0.0863 0.2039 / 0.522), Parsed: L=0, C=0.0863, h=0.2039, alpha=0.522
+oklchToHex input: L=0, C=0.0863, h=0.2039, alpha=0.522
+parseOklch: Input: oklch(0 0.0549 0.1412 / 0.636), Parsed: L=0, C=0.0549, h=0.1412, alpha=0.636
+oklchToHex input: L=0, C=0.0549, h=0.1412, alpha=0.636
+parseOklch: Input: oklch(0 0.0275 0.0667 / 0.895), Parsed: L=0, C=0.0275, h=0.0667, alpha=0.895
+oklchToHex input: L=0, C=0.0275, h=0.0667, alpha=0.895
+parseOklch: Input: oklch(97% 0.02 140), Parsed: L=97, C=0.02, h=140, alpha=undefined
+oklchToHex input: L=97, C=0.02, h=140, alpha=undefined
+parseOklch: Input: oklch(90% 0.08 140), Parsed: L=90, C=0.08, h=140, alpha=undefined
+oklchToHex input: L=90, C=0.08, h=140, alpha=undefined
+parseOklch: Input: oklch(80% 0.15 140), Parsed: L=80, C=0.15, h=140, alpha=undefined
+oklchToHex input: L=80, C=0.15, h=140, alpha=undefined
+parseOklch: Input: oklch(70% 0.2 140), Parsed: L=70, C=0.2, h=140, alpha=undefined
+oklchToHex input: L=70, C=0.2, h=140, alpha=undefined
+parseOklch: Input: oklch(60% 0.22 140), Parsed: L=60, C=0.22, h=140, alpha=undefined
+oklchToHex input: L=60, C=0.22, h=140, alpha=undefined
+parseOklch: Input: oklch(50% 0.2 140), Parsed: L=50, C=0.2, h=140, alpha=undefined
+oklchToHex input: L=50, C=0.2, h=140, alpha=undefined
+parseOklch: Input: oklch(40% 0.18 140), Parsed: L=40, C=0.18, h=140, alpha=undefined
+oklchToHex input: L=40, C=0.18, h=140, alpha=undefined
+parseOklch: Input: oklch(30% 0.15 140), Parsed: L=30, C=0.15, h=140, alpha=undefined
+oklchToHex input: L=30, C=0.15, h=140, alpha=undefined
+parseOklch: Input: oklch(20% 0.1 140), Parsed: L=20, C=0.1, h=140, alpha=undefined
+oklchToHex input: L=20, C=0.1, h=140, alpha=undefined
+parseOklch: Input: oklch(10% 0.05 140), Parsed: L=10, C=0.05, h=140, alpha=undefined
+oklchToHex input: L=10, C=0.05, h=140, alpha=undefined
+parseOklch: Input: oklch(97% 0.02 80), Parsed: L=97, C=0.02, h=80, alpha=undefined
+oklchToHex input: L=97, C=0.02, h=80, alpha=undefined
+parseOklch: Input: oklch(90% 0.08 80), Parsed: L=90, C=0.08, h=80, alpha=undefined
+oklchToHex input: L=90, C=0.08, h=80, alpha=undefined
+parseOklch: Input: oklch(80% 0.15 80), Parsed: L=80, C=0.15, h=80, alpha=undefined
+oklchToHex input: L=80, C=0.15, h=80, alpha=undefined
+parseOklch: Input: oklch(70% 0.2 80), Parsed: L=70, C=0.2, h=80, alpha=undefined
+oklchToHex input: L=70, C=0.2, h=80, alpha=undefined
+parseOklch: Input: oklch(60% 0.22 80), Parsed: L=60, C=0.22, h=80, alpha=undefined
+oklchToHex input: L=60, C=0.22, h=80, alpha=undefined
+parseOklch: Input: oklch(50% 0.2 80), Parsed: L=50, C=0.2, h=80, alpha=undefined
+oklchToHex input: L=50, C=0.2, h=80, alpha=undefined
+parseOklch: Input: oklch(40% 0.18 80), Parsed: L=40, C=0.18, h=80, alpha=undefined
+oklchToHex input: L=40, C=0.18, h=80, alpha=undefined
+parseOklch: Input: oklch(30% 0.15 80), Parsed: L=30, C=0.15, h=80, alpha=undefined
+oklchToHex input: L=30, C=0.15, h=80, alpha=undefined
+parseOklch: Input: oklch(20% 0.1 80), Parsed: L=20, C=0.1, h=80, alpha=undefined
+oklchToHex input: L=20, C=0.1, h=80, alpha=undefined
+parseOklch: Input: oklch(10% 0.05 80), Parsed: L=10, C=0.05, h=80, alpha=undefined
+oklchToHex input: L=10, C=0.05, h=80, alpha=undefined
+parseOklch: Input: oklch(97% 0.02 30), Parsed: L=97, C=0.02, h=30, alpha=undefined
+oklchToHex input: L=97, C=0.02, h=30, alpha=undefined
+parseOklch: Input: oklch(90% 0.08 30), Parsed: L=90, C=0.08, h=30, alpha=undefined
+oklchToHex input: L=90, C=0.08, h=30, alpha=undefined
+parseOklch: Input: oklch(80% 0.15 30), Parsed: L=80, C=0.15, h=30, alpha=undefined
+oklchToHex input: L=80, C=0.15, h=30, alpha=undefined
+parseOklch: Input: oklch(70% 0.2 30), Parsed: L=70, C=0.2, h=30, alpha=undefined
+oklchToHex input: L=70, C=0.2, h=30, alpha=undefined
+parseOklch: Input: oklch(60% 0.22 30), Parsed: L=60, C=0.22, h=30, alpha=undefined
+oklchToHex input: L=60, C=0.22, h=30, alpha=undefined
+parseOklch: Input: oklch(50% 0.2 30), Parsed: L=50, C=0.2, h=30, alpha=undefined
+oklchToHex input: L=50, C=0.2, h=30, alpha=undefined
+parseOklch: Input: oklch(40% 0.18 30), Parsed: L=40, C=0.18, h=30, alpha=undefined
+oklchToHex input: L=40, C=0.18, h=30, alpha=undefined
+parseOklch: Input: oklch(30% 0.15 30), Parsed: L=30, C=0.15, h=30, alpha=undefined
+oklchToHex input: L=30, C=0.15, h=30, alpha=undefined
+parseOklch: Input: oklch(20% 0.1 30), Parsed: L=20, C=0.1, h=30, alpha=undefined
+oklchToHex input: L=20, C=0.1, h=30, alpha=undefined
+parseOklch: Input: oklch(10% 0.05 30), Parsed: L=10, C=0.05, h=30, alpha=undefined
+oklchToHex input: L=10, C=0.05, h=30, alpha=undefined
+parseOklch: Input: oklch(97% 0.02 220), Parsed: L=97, C=0.02, h=220, alpha=undefined
+oklchToHex input: L=97, C=0.02, h=220, alpha=undefined
+parseOklch: Input: oklch(90% 0.08 220), Parsed: L=90, C=0.08, h=220, alpha=undefined
+oklchToHex input: L=90, C=0.08, h=220, alpha=undefined
+parseOklch: Input: oklch(80% 0.15 220), Parsed: L=80, C=0.15, h=220, alpha=undefined
+oklchToHex input: L=80, C=0.15, h=220, alpha=undefined
+parseOklch: Input: oklch(70% 0.2 220), Parsed: L=70, C=0.2, h=220, alpha=undefined
+oklchToHex input: L=70, C=0.2, h=220, alpha=undefined
+parseOklch: Input: oklch(60% 0.22 220), Parsed: L=60, C=0.22, h=220, alpha=undefined
+oklchToHex input: L=60, C=0.22, h=220, alpha=undefined
+parseOklch: Input: oklch(50% 0.2 220), Parsed: L=50, C=0.2, h=220, alpha=undefined
+oklchToHex input: L=50, C=0.2, h=220, alpha=undefined
+parseOklch: Input: oklch(40% 0.18 220), Parsed: L=40, C=0.18, h=220, alpha=undefined
+oklchToHex input: L=40, C=0.18, h=220, alpha=undefined
+parseOklch: Input: oklch(30% 0.15 220), Parsed: L=30, C=0.15, h=220, alpha=undefined
+oklchToHex input: L=30, C=0.15, h=220, alpha=undefined
+parseOklch: Input: oklch(20% 0.1 220), Parsed: L=20, C=0.1, h=220, alpha=undefined
+oklchToHex input: L=20, C=0.1, h=220, alpha=undefined
+parseOklch: Input: oklch(10% 0.05 220), Parsed: L=10, C=0.05, h=220, alpha=undefined
+oklchToHex input: L=10, C=0.05, h=220, alpha=undefined
+parseOklch: Input: oklch(99.2% 0.0031 256.4), Parsed: L=99.2, C=0.0031, h=256.4, alpha=undefined
+oklchToHex input: L=99.2, C=0.0031, h=256.4, alpha=undefined
+parseOklch: Input: oklch(98.3% 0.0056 256.4), Parsed: L=98.3, C=0.0056, h=256.4, alpha=undefined
+oklchToHex input: L=98.3, C=0.0056, h=256.4, alpha=undefined
+parseOklch: Input: oklch(95.6% 0.0102 256.4), Parsed: L=95.6, C=0.0102, h=256.4, alpha=undefined
+oklchToHex input: L=95.6, C=0.0102, h=256.4, alpha=undefined
+parseOklch: Input: oklch(93.2% 0.0134 256.4), Parsed: L=93.2, C=0.0134, h=256.4, alpha=undefined
+oklchToHex input: L=93.2, C=0.0134, h=256.4, alpha=undefined
+parseOklch: Input: oklch(90.9% 0.0173 256.4), Parsed: L=90.9, C=0.0173, h=256.4, alpha=undefined
+oklchToHex input: L=90.9, C=0.0173, h=256.4, alpha=undefined
+parseOklch: Input: oklch(88.6% 0.0199 256.4), Parsed: L=88.6, C=0.0199, h=256.4, alpha=undefined
+oklchToHex input: L=88.6, C=0.0199, h=256.4, alpha=undefined
+parseOklch: Input: oklch(85.4% 0.0245 256.4), Parsed: L=85.4, C=0.0245, h=256.4, alpha=undefined
+oklchToHex input: L=85.4, C=0.0245, h=256.4, alpha=undefined
+parseOklch: Input: oklch(79.4% 0.0332 256.4), Parsed: L=79.4, C=0.0332, h=256.4, alpha=undefined
+oklchToHex input: L=79.4, C=0.0332, h=256.4, alpha=undefined
+parseOklch: Input: oklch(64.6% 0.0335 256.4), Parsed: L=64.6, C=0.0335, h=256.4, alpha=undefined
+oklchToHex input: L=64.6, C=0.0335, h=256.4, alpha=undefined
+parseOklch: Input: oklch(61.1% 0.0318 256.4), Parsed: L=61.1, C=0.0318, h=256.4, alpha=undefined
+oklchToHex input: L=61.1, C=0.0318, h=256.4, alpha=undefined
+parseOklch: Input: oklch(50.5% 0.0275 256.4), Parsed: L=50.5, C=0.0275, h=256.4, alpha=undefined
+oklchToHex input: L=50.5, C=0.0275, h=256.4, alpha=undefined
+parseOklch: Input: oklch(24.5% 0.023 256.4), Parsed: L=24.5, C=0.023, h=256.4, alpha=undefined
+oklchToHex input: L=24.5, C=0.023, h=256.4, alpha=undefined
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.1), Parsed: L=62, C=0.1906, h=258.2, alpha=0.1
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.1
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.2), Parsed: L=62, C=0.1906, h=258.2, alpha=0.2
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.2
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.3), Parsed: L=62, C=0.1906, h=258.2, alpha=0.3
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.3
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.4), Parsed: L=62, C=0.1906, h=258.2, alpha=0.4
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.4
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.5), Parsed: L=62, C=0.1906, h=258.2, alpha=0.5
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.5
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.6), Parsed: L=62, C=0.1906, h=258.2, alpha=0.6
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.6
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.7), Parsed: L=62, C=0.1906, h=258.2, alpha=0.7
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.7
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.8), Parsed: L=62, C=0.1906, h=258.2, alpha=0.8
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.8
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.9), Parsed: L=62, C=0.1906, h=258.2, alpha=0.9
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=0.9
+parseOklch: Input: oklch(62% 0.1906 258.2 / 1), Parsed: L=62, C=0.1906, h=258.2, alpha=1
+oklchToHex input: L=62, C=0.1906, h=258.2, alpha=1
+parseOklch: Input: oklch(55.4% 0.1906 258.2 / 1), Parsed: L=55.4, C=0.1906, h=258.2, alpha=1
+oklchToHex input: L=55.4, C=0.1906, h=258.2, alpha=1
+parseOklch: Input: oklch(32.3% 0.099 258.2 / 1), Parsed: L=32.3, C=0.099, h=258.2, alpha=1
+oklchToHex input: L=32.3, C=0.099, h=258.2, alpha=1
+ GET /foundation/colors 200 in 273ms
+ GET /favicon.ico 200 in 12ms
+ ✓ Compiled in 180ms (685 modules)
+parseOklch: Input: oklch(99.3% 0.0032 258.2), Parsed: L=0.993, C=0.0032, h=258.2, alpha=undefined
+oklchToHex input: L=0.993, C=0.0032, h=258.2, alpha=undefined
+parseOklch: Input: oklch(98.2% 0.0097 258.2), Parsed: L=0.982, C=0.0097, h=258.2, alpha=undefined
+oklchToHex input: L=0.982, C=0.0097, h=258.2, alpha=undefined
+parseOklch: Input: oklch(96% 0.0202 258.2), Parsed: L=0.96, C=0.0202, h=258.2, alpha=undefined
+oklchToHex input: L=0.96, C=0.0202, h=258.2, alpha=undefined
+parseOklch: Input: oklch(93.7% 0.0378 258.2), Parsed: L=0.937, C=0.0378, h=258.2, alpha=undefined
+oklchToHex input: L=0.937, C=0.0378, h=258.2, alpha=undefined
+parseOklch: Input: oklch(90.6% 0.0548 258.2), Parsed: L=0.9059999999999999, C=0.0548, h=258.2, alpha=undefined
+oklchToHex input: L=0.9059999999999999, C=0.0548, h=258.2, alpha=undefined
+parseOklch: Input: oklch(86.4% 0.0706 258.2), Parsed: L=0.8640000000000001, C=0.0706, h=258.2, alpha=undefined
+oklchToHex input: L=0.8640000000000001, C=0.0706, h=258.2, alpha=undefined
+parseOklch: Input: oklch(80.9% 0.0907 258.2), Parsed: L=0.809, C=0.0907, h=258.2, alpha=undefined
+oklchToHex input: L=0.809, C=0.0907, h=258.2, alpha=undefined
+parseOklch: Input: oklch(73.4% 0.1238 258.2), Parsed: L=0.7340000000000001, C=0.1238, h=258.2, alpha=undefined
+oklchToHex input: L=0.7340000000000001, C=0.1238, h=258.2, alpha=undefined
+parseOklch: Input: oklch(62% 0.1906 258.2), Parsed: L=0.62, C=0.1906, h=258.2, alpha=undefined
+oklchToHex input: L=0.62, C=0.1906, h=258.2, alpha=undefined
+parseOklch: Input: oklch(57.8% 0.1939 258.2), Parsed: L=0.578, C=0.1939, h=258.2, alpha=undefined
+oklchToHex input: L=0.578, C=0.1939, h=258.2, alpha=undefined
+parseOklch: Input: oklch(55.4% 0.1906 258.2), Parsed: L=0.5539999999999999, C=0.1906, h=258.2, alpha=undefined
+oklchToHex input: L=0.5539999999999999, C=0.1906, h=258.2, alpha=undefined
+parseOklch: Input: oklch(32.3% 0.099 258.2), Parsed: L=0.32299999999999995, C=0.099, h=258.2, alpha=undefined
+oklchToHex input: L=0.32299999999999995, C=0.099, h=258.2, alpha=undefined
+parseOklch: Input: oklch(0.0235 0.2667 0.7569 / 0.016), Parsed: L=0.0235, C=0.2667, h=0.7569, alpha=0.016
+oklchToHex input: L=0.0235, C=0.2667, h=0.7569, alpha=0.016
+parseOklch: Input: oklch(0.0235 0.302 0.7216 / 0.028), Parsed: L=0.0235, C=0.302, h=0.7216, alpha=0.028
+oklchToHex input: L=0.0235, C=0.302, h=0.7216, alpha=0.028
+parseOklch: Input: oklch(0.0078 0.2275 0.5059 / 0.071), Parsed: L=0.0078, C=0.2275, h=0.5059, alpha=0.071
+oklchToHex input: L=0.0078, C=0.2275, h=0.5059, alpha=0.071
+parseOklch: Input: oklch(0.0039 0.1882 0.4824 / 0.106), Parsed: L=0.0039, C=0.1882, h=0.4824, alpha=0.106
+oklchToHex input: L=0.0039, C=0.1882, h=0.4824, alpha=0.106
+parseOklch: Input: oklch(0.0078 0.2 0.4784 / 0.142), Parsed: L=0.0078, C=0.2, h=0.4784, alpha=0.142
+oklchToHex input: L=0.0078, C=0.2, h=0.4784, alpha=0.142
+parseOklch: Input: oklch(0.0039 0.1647 0.4353 / 0.173), Parsed: L=0.0039, C=0.1647, h=0.4353, alpha=0.173
+oklchToHex input: L=0.0039, C=0.1647, h=0.4353, alpha=0.173
+parseOklch: Input: oklch(0.0039 0.1647 0.4118 / 0.22), Parsed: L=0.0039, C=0.1647, h=0.4118, alpha=0.22
+oklchToHex input: L=0.0039, C=0.1647, h=0.4118, alpha=0.22
+parseOklch: Input: oklch(0.0039 0.1569 0.3882 / 0.306), Parsed: L=0.0039, C=0.1569, h=0.3882, alpha=0.306
+oklchToHex input: L=0.0039, C=0.1569, h=0.3882, alpha=0.306
+parseOklch: Input: oklch(0.0039 0.0902 0.2392 / 0.483), Parsed: L=0.0039, C=0.0902, h=0.2392, alpha=0.483
+oklchToHex input: L=0.0039, C=0.0902, h=0.2392, alpha=0.483
+parseOklch: Input: oklch(0 0.0863 0.2039 / 0.522), Parsed: L=0, C=0.0863, h=0.2039, alpha=0.522
+oklchToHex input: L=0, C=0.0863, h=0.2039, alpha=0.522
+parseOklch: Input: oklch(0 0.0549 0.1412 / 0.636), Parsed: L=0, C=0.0549, h=0.1412, alpha=0.636
+oklchToHex input: L=0, C=0.0549, h=0.1412, alpha=0.636
+parseOklch: Input: oklch(0 0.0275 0.0667 / 0.895), Parsed: L=0, C=0.0275, h=0.0667, alpha=0.895
+oklchToHex input: L=0, C=0.0275, h=0.0667, alpha=0.895
+parseOklch: Input: oklch(97% 0.02 140), Parsed: L=0.97, C=0.02, h=140, alpha=undefined
+oklchToHex input: L=0.97, C=0.02, h=140, alpha=undefined
+parseOklch: Input: oklch(90% 0.08 140), Parsed: L=0.9, C=0.08, h=140, alpha=undefined
+oklchToHex input: L=0.9, C=0.08, h=140, alpha=undefined
+parseOklch: Input: oklch(80% 0.15 140), Parsed: L=0.8, C=0.15, h=140, alpha=undefined
+oklchToHex input: L=0.8, C=0.15, h=140, alpha=undefined
+parseOklch: Input: oklch(70% 0.2 140), Parsed: L=0.7, C=0.2, h=140, alpha=undefined
+oklchToHex input: L=0.7, C=0.2, h=140, alpha=undefined
+parseOklch: Input: oklch(60% 0.22 140), Parsed: L=0.6, C=0.22, h=140, alpha=undefined
+oklchToHex input: L=0.6, C=0.22, h=140, alpha=undefined
+parseOklch: Input: oklch(50% 0.2 140), Parsed: L=0.5, C=0.2, h=140, alpha=undefined
+oklchToHex input: L=0.5, C=0.2, h=140, alpha=undefined
+parseOklch: Input: oklch(40% 0.18 140), Parsed: L=0.4, C=0.18, h=140, alpha=undefined
+oklchToHex input: L=0.4, C=0.18, h=140, alpha=undefined
+parseOklch: Input: oklch(30% 0.15 140), Parsed: L=0.3, C=0.15, h=140, alpha=undefined
+oklchToHex input: L=0.3, C=0.15, h=140, alpha=undefined
+parseOklch: Input: oklch(20% 0.1 140), Parsed: L=0.2, C=0.1, h=140, alpha=undefined
+oklchToHex input: L=0.2, C=0.1, h=140, alpha=undefined
+parseOklch: Input: oklch(10% 0.05 140), Parsed: L=0.1, C=0.05, h=140, alpha=undefined
+oklchToHex input: L=0.1, C=0.05, h=140, alpha=undefined
+parseOklch: Input: oklch(97% 0.02 80), Parsed: L=0.97, C=0.02, h=80, alpha=undefined
+oklchToHex input: L=0.97, C=0.02, h=80, alpha=undefined
+parseOklch: Input: oklch(90% 0.08 80), Parsed: L=0.9, C=0.08, h=80, alpha=undefined
+oklchToHex input: L=0.9, C=0.08, h=80, alpha=undefined
+parseOklch: Input: oklch(80% 0.15 80), Parsed: L=0.8, C=0.15, h=80, alpha=undefined
+oklchToHex input: L=0.8, C=0.15, h=80, alpha=undefined
+parseOklch: Input: oklch(70% 0.2 80), Parsed: L=0.7, C=0.2, h=80, alpha=undefined
+oklchToHex input: L=0.7, C=0.2, h=80, alpha=undefined
+parseOklch: Input: oklch(60% 0.22 80), Parsed: L=0.6, C=0.22, h=80, alpha=undefined
+oklchToHex input: L=0.6, C=0.22, h=80, alpha=undefined
+parseOklch: Input: oklch(50% 0.2 80), Parsed: L=0.5, C=0.2, h=80, alpha=undefined
+oklchToHex input: L=0.5, C=0.2, h=80, alpha=undefined
+parseOklch: Input: oklch(40% 0.18 80), Parsed: L=0.4, C=0.18, h=80, alpha=undefined
+oklchToHex input: L=0.4, C=0.18, h=80, alpha=undefined
+parseOklch: Input: oklch(30% 0.15 80), Parsed: L=0.3, C=0.15, h=80, alpha=undefined
+oklchToHex input: L=0.3, C=0.15, h=80, alpha=undefined
+parseOklch: Input: oklch(20% 0.1 80), Parsed: L=0.2, C=0.1, h=80, alpha=undefined
+oklchToHex input: L=0.2, C=0.1, h=80, alpha=undefined
+parseOklch: Input: oklch(10% 0.05 80), Parsed: L=0.1, C=0.05, h=80, alpha=undefined
+oklchToHex input: L=0.1, C=0.05, h=80, alpha=undefined
+parseOklch: Input: oklch(97% 0.02 30), Parsed: L=0.97, C=0.02, h=30, alpha=undefined
+oklchToHex input: L=0.97, C=0.02, h=30, alpha=undefined
+parseOklch: Input: oklch(90% 0.08 30), Parsed: L=0.9, C=0.08, h=30, alpha=undefined
+oklchToHex input: L=0.9, C=0.08, h=30, alpha=undefined
+parseOklch: Input: oklch(80% 0.15 30), Parsed: L=0.8, C=0.15, h=30, alpha=undefined
+oklchToHex input: L=0.8, C=0.15, h=30, alpha=undefined
+parseOklch: Input: oklch(70% 0.2 30), Parsed: L=0.7, C=0.2, h=30, alpha=undefined
+oklchToHex input: L=0.7, C=0.2, h=30, alpha=undefined
+parseOklch: Input: oklch(60% 0.22 30), Parsed: L=0.6, C=0.22, h=30, alpha=undefined
+oklchToHex input: L=0.6, C=0.22, h=30, alpha=undefined
+parseOklch: Input: oklch(50% 0.2 30), Parsed: L=0.5, C=0.2, h=30, alpha=undefined
+oklchToHex input: L=0.5, C=0.2, h=30, alpha=undefined
+parseOklch: Input: oklch(40% 0.18 30), Parsed: L=0.4, C=0.18, h=30, alpha=undefined
+oklchToHex input: L=0.4, C=0.18, h=30, alpha=undefined
+parseOklch: Input: oklch(30% 0.15 30), Parsed: L=0.3, C=0.15, h=30, alpha=undefined
+oklchToHex input: L=0.3, C=0.15, h=30, alpha=undefined
+parseOklch: Input: oklch(20% 0.1 30), Parsed: L=0.2, C=0.1, h=30, alpha=undefined
+oklchToHex input: L=0.2, C=0.1, h=30, alpha=undefined
+parseOklch: Input: oklch(10% 0.05 30), Parsed: L=0.1, C=0.05, h=30, alpha=undefined
+oklchToHex input: L=0.1, C=0.05, h=30, alpha=undefined
+parseOklch: Input: oklch(97% 0.02 220), Parsed: L=0.97, C=0.02, h=220, alpha=undefined
+oklchToHex input: L=0.97, C=0.02, h=220, alpha=undefined
+parseOklch: Input: oklch(90% 0.08 220), Parsed: L=0.9, C=0.08, h=220, alpha=undefined
+oklchToHex input: L=0.9, C=0.08, h=220, alpha=undefined
+parseOklch: Input: oklch(80% 0.15 220), Parsed: L=0.8, C=0.15, h=220, alpha=undefined
+oklchToHex input: L=0.8, C=0.15, h=220, alpha=undefined
+parseOklch: Input: oklch(70% 0.2 220), Parsed: L=0.7, C=0.2, h=220, alpha=undefined
+oklchToHex input: L=0.7, C=0.2, h=220, alpha=undefined
+parseOklch: Input: oklch(60% 0.22 220), Parsed: L=0.6, C=0.22, h=220, alpha=undefined
+oklchToHex input: L=0.6, C=0.22, h=220, alpha=undefined
+parseOklch: Input: oklch(50% 0.2 220), Parsed: L=0.5, C=0.2, h=220, alpha=undefined
+oklchToHex input: L=0.5, C=0.2, h=220, alpha=undefined
+parseOklch: Input: oklch(40% 0.18 220), Parsed: L=0.4, C=0.18, h=220, alpha=undefined
+oklchToHex input: L=0.4, C=0.18, h=220, alpha=undefined
+parseOklch: Input: oklch(30% 0.15 220), Parsed: L=0.3, C=0.15, h=220, alpha=undefined
+oklchToHex input: L=0.3, C=0.15, h=220, alpha=undefined
+parseOklch: Input: oklch(20% 0.1 220), Parsed: L=0.2, C=0.1, h=220, alpha=undefined
+oklchToHex input: L=0.2, C=0.1, h=220, alpha=undefined
+parseOklch: Input: oklch(10% 0.05 220), Parsed: L=0.1, C=0.05, h=220, alpha=undefined
+oklchToHex input: L=0.1, C=0.05, h=220, alpha=undefined
+parseOklch: Input: oklch(99.2% 0.0031 256.4), Parsed: L=0.992, C=0.0031, h=256.4, alpha=undefined
+oklchToHex input: L=0.992, C=0.0031, h=256.4, alpha=undefined
+parseOklch: Input: oklch(98.3% 0.0056 256.4), Parsed: L=0.983, C=0.0056, h=256.4, alpha=undefined
+oklchToHex input: L=0.983, C=0.0056, h=256.4, alpha=undefined
+parseOklch: Input: oklch(95.6% 0.0102 256.4), Parsed: L=0.956, C=0.0102, h=256.4, alpha=undefined
+oklchToHex input: L=0.956, C=0.0102, h=256.4, alpha=undefined
+parseOklch: Input: oklch(93.2% 0.0134 256.4), Parsed: L=0.932, C=0.0134, h=256.4, alpha=undefined
+oklchToHex input: L=0.932, C=0.0134, h=256.4, alpha=undefined
+parseOklch: Input: oklch(90.9% 0.0173 256.4), Parsed: L=0.909, C=0.0173, h=256.4, alpha=undefined
+oklchToHex input: L=0.909, C=0.0173, h=256.4, alpha=undefined
+parseOklch: Input: oklch(88.6% 0.0199 256.4), Parsed: L=0.8859999999999999, C=0.0199, h=256.4, alpha=undefined
+oklchToHex input: L=0.8859999999999999, C=0.0199, h=256.4, alpha=undefined
+parseOklch: Input: oklch(85.4% 0.0245 256.4), Parsed: L=0.8540000000000001, C=0.0245, h=256.4, alpha=undefined
+oklchToHex input: L=0.8540000000000001, C=0.0245, h=256.4, alpha=undefined
+parseOklch: Input: oklch(79.4% 0.0332 256.4), Parsed: L=0.794, C=0.0332, h=256.4, alpha=undefined
+oklchToHex input: L=0.794, C=0.0332, h=256.4, alpha=undefined
+parseOklch: Input: oklch(64.6% 0.0335 256.4), Parsed: L=0.6459999999999999, C=0.0335, h=256.4, alpha=undefined
+oklchToHex input: L=0.6459999999999999, C=0.0335, h=256.4, alpha=undefined
+parseOklch: Input: oklch(61.1% 0.0318 256.4), Parsed: L=0.611, C=0.0318, h=256.4, alpha=undefined
+oklchToHex input: L=0.611, C=0.0318, h=256.4, alpha=undefined
+parseOklch: Input: oklch(50.5% 0.0275 256.4), Parsed: L=0.505, C=0.0275, h=256.4, alpha=undefined
+oklchToHex input: L=0.505, C=0.0275, h=256.4, alpha=undefined
+parseOklch: Input: oklch(24.5% 0.023 256.4), Parsed: L=0.245, C=0.023, h=256.4, alpha=undefined
+oklchToHex input: L=0.245, C=0.023, h=256.4, alpha=undefined
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.1), Parsed: L=0.62, C=0.1906, h=258.2, alpha=0.1
+oklchToHex input: L=0.62, C=0.1906, h=258.2, alpha=0.1
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.2), Parsed: L=0.62, C=0.1906, h=258.2, alpha=0.2
+oklchToHex input: L=0.62, C=0.1906, h=258.2, alpha=0.2
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.3), Parsed: L=0.62, C=0.1906, h=258.2, alpha=0.3
+oklchToHex input: L=0.62, C=0.1906, h=258.2, alpha=0.3
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.4), Parsed: L=0.62, C=0.1906, h=258.2, alpha=0.4
+oklchToHex input: L=0.62, C=0.1906, h=258.2, alpha=0.4
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.5), Parsed: L=0.62, C=0.1906, h=258.2, alpha=0.5
+oklchToHex input: L=0.62, C=0.1906, h=258.2, alpha=0.5
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.6), Parsed: L=0.62, C=0.1906, h=258.2, alpha=0.6
+oklchToHex input: L=0.62, C=0.1906, h=258.2, alpha=0.6
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.7), Parsed: L=0.62, C=0.1906, h=258.2, alpha=0.7
+oklchToHex input: L=0.62, C=0.1906, h=258.2, alpha=0.7
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.8), Parsed: L=0.62, C=0.1906, h=258.2, alpha=0.8
+oklchToHex input: L=0.62, C=0.1906, h=258.2, alpha=0.8
+parseOklch: Input: oklch(62% 0.1906 258.2 / 0.9), Parsed: L=0.62, C=0.1906, h=258.2, alpha=0.9
+oklchToHex input: L=0.62, C=0.1906, h=258.2, alpha=0.9
+parseOklch: Input: oklch(62% 0.1906 258.2 / 1), Parsed: L=0.62, C=0.1906, h=258.2, alpha=1
+oklchToHex input: L=0.62, C=0.1906, h=258.2, alpha=1
+parseOklch: Input: oklch(55.4% 0.1906 258.2 / 1), Parsed: L=0.5539999999999999, C=0.1906, h=258.2, alpha=1
+oklchToHex input: L=0.5539999999999999, C=0.1906, h=258.2, alpha=1
+parseOklch: Input: oklch(32.3% 0.099 258.2 / 1), Parsed: L=0.32299999999999995, C=0.099, h=258.2, alpha=1
+oklchToHex input: L=0.32299999999999995, C=0.099, h=258.2, alpha=1
+ GET /foundation/colors 200 in 84ms
+ GET /foundation/colors 200 in 324ms
+ GET /favicon.ico 200 in 21ms
+ ✓ Compiled in 207ms (260 modules)
+ GET /foundation/colors 200 in 79ms
+ ✓ Compiled in 142ms (260 modules)
+ GET /foundation/colors 200 in 52ms
+ GET /foundation/colors 200 in 217ms
+ GET /favicon.ico 200 in 19ms
+ GET /foundation/colors 200 in 163ms
+ GET /favicon.ico 200 in 14ms
+ GET /foundation/colors 200 in 163ms
+ GET /favicon.ico 200 in 23ms
+ GET /foundation/colors 200 in 157ms
+ GET /favicon.ico 200 in 8ms
+ GET /foundation/colors 200 in 171ms
+ GET /favicon.ico 200 in 9ms
+ ✓ Compiled / in 237ms (673 modules)
+ GET / 200 in 354ms
+ GET / 200 in 53ms
+ ⨯ Error: Cannot find module './179.js'
+Require stack:
+- /Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app/.next/server/webpack-runtime.js
+- /Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app/.next/server/app/page.js
+- /Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app/node_modules/.pnpm/next@15.5.2_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/server/require.js
+- /Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app/node_modules/.pnpm/next@15.5.2_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/server/load-components.js
+- /Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app/node_modules/.pnpm/next@15.5.2_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/build/utils.js
+- /Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app/node_modules/.pnpm/next@15.5.2_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/build/swc/options.js
+- /Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app/node_modules/.pnpm/next@15.5.2_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/build/swc/index.js
+- /Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app/node_modules/.pnpm/next@15.5.2_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/build/next-config-ts/transpile-config.js
+- /Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app/node_modules/.pnpm/next@15.5.2_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/server/config.js
+- /Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app/node_modules/.pnpm/next@15.5.2_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/server/next.js
+- /Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app/node_modules/.pnpm/next@15.5.2_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/server/lib/start-server.js
+    at <unknown> (.next/server/app/favicon.ico/route.js:1:72449)
+    at Object.<anonymous> (.next/server/app/favicon.ico/route.js:1:72494) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/favicon.ico'
+}
+ GET /favicon.ico 500 in 32ms
+ ⨯ Module not found: Error: Can't resolve 'next-flight-client-entry-loader' in '/Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app'
+ ⨯ Module not found: Error: Can't resolve 'next-flight-client-entry-loader' in '/Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app'
