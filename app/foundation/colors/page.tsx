@@ -1,3 +1,5 @@
+"use client";
+
 import * as React from "react";
 import { ColorSwatch } from "@/components/ui/color-swatch";
 
