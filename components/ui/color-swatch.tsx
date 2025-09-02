@@ -1,7 +1,8 @@
 "use client";
 
 import { useState, useEffect, useRef } from 'react';
-import { oklchToHex, rgbToOklch } from '@/lib/color-converter'; // Import rgbToOklch
+import { Copy, Check } from 'lucide-react';
+import { oklchToHex, rgbToOklch } from '@/lib/color-converter';
 
 interface ColorSwatchProps {
   name: string;
@@ -12,12 +13,11 @@ export function ColorSwatch({ name, variable }: ColorSwatchProps) {
   const colorRef = useRef<HTMLDivElement>(null);
   const [displayOklch, setDisplayOklch] = useState<string>('');
   const [displayHex, setDisplayHex] = useState<string>('');
+  const [copiedType, setCopiedType] = useState<string | null>(null);
 
   useEffect(() => {
     if (colorRef.current) {
       const computedColor = window.getComputedStyle(colorRef.current).backgroundColor;
-      // computedColor will be in rgb(r, g, b) or rgba(r, g, b, a) format
-
       const oklch = rgbToOklch(computedColor);
       if (oklch) {
         const { L, C, h, alpha } = oklch;
@@ -28,16 +28,63 @@ export function ColorSwatch({ name, variable }: ColorSwatchProps) {
         setDisplayHex('N/A');
       }
     }
-  }, [variable]); // Recalculate if the variable changes
+  }, [variable]);
+
+  const copyToClipboard = async (text: string, type: string) => {
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopiedType(type);
+      setTimeout(() => setCopiedType(null), 2000);
+    } catch (err) {
+      // Fallback for older browsers
+      const textArea = document.createElement('textarea');
+      textArea.value = text;
+      document.body.appendChild(textArea);
+      textArea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textArea);
+      setCopiedType(type);
+      setTimeout(() => setCopiedType(null), 2000);
+    }
+  };
+
+  const CopyButton = ({ text, type, label }: { text: string; type: string; label: string }) => (
+    <button
+      onClick={() => copyToClipboard(text, type)}
+      className="flex items-center gap-2 px-2 py-1 text-xs rounded hover:bg-muted transition-colors"
+      title={`${label} 복사`}
+    >
+      {copiedType === type ? (
+        <Check className="h-3 w-3 text-green-600" />
+      ) : (
+        <Copy className="h-3 w-3" />
+      )}
+      {label}
+    </button>
+  );
 
   return (
     <div className="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden">
       <div ref={colorRef} className="h-24 w-full" style={{ backgroundColor: variable }} />
-      <div className="p-4">
+      <div className="p-4 space-y-3">
         <h3 className="text-[16px] font-semibold leading-normal">{name}</h3>
-        <code className="block text-sm text-muted-foreground mt-1">{variable}</code>
-        <code className="block text-sm text-muted-foreground">{displayOklch}</code>
-        <code className="block text-sm text-muted-foreground">{displayHex}</code>
+        
+        <div className="space-y-2">
+          <div className="flex items-center justify-between">
+            <code className="text-sm text-muted-foreground">{variable}</code>
+            <CopyButton text={variable} type="css" label="CSS" />
+          </div>
+          
+          <div className="flex items-center justify-between">
+            <code className="text-sm text-muted-foreground">{displayOklch}</code>
+            <CopyButton text={displayOklch} type="oklch" label="OKLCH" />
+          </div>
+          
+          <div className="flex items-center justify-between">
+            <code className="text-sm text-muted-foreground">{displayHex}</code>
+            <CopyButton text={displayHex} type="hex" label="HEX" />
+          </div>
+        </div>
       </div>
     </div>
   );
