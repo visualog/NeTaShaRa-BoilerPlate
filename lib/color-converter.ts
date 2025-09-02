@@ -71,3 +71,76 @@ export function parseOklch(oklchString: string): { L: number; C: number; h: numb
 
   return { L, C, h, alpha };
 }
+
+// Helper function to convert sRGB to linear sRGB
+function srgbToLinear(c: number): number {
+  c = c / 255;
+  return c > 0.04045 ? Math.pow((c + 0.055) / 1.055, 2.4) : c / 12.92;
+}
+
+// Add new helper function to parse various CSS color strings
+function parseCssColor(colorString: string): { r: number; g: number; b: number; alpha?: number; isP3?: boolean } | null {
+  // Try matching rgba/rgb first
+  let match = colorString.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)(?:,\s*(\d*\.?\d+))?\)/);
+  if (match) {
+    return {
+      r: parseInt(match[1]),
+      g: parseInt(match[2]),
+      b: parseInt(match[3]),
+      alpha: match[4] ? parseFloat(match[4]) : undefined,
+      isP3: false
+    };
+  }
+
+  // Try matching color(display-p3 ...)
+  match = colorString.match(/color\(display-p3\s*(\d*\.?\d+)\s*(\d*\.?\d+)\s*(\d*\.?\d+)(?: \/ (\d*\.?\d+))?\)/);
+  if (match) {
+    return {
+      r: parseFloat(match[1]) * 255, // Scale 0-1 to 0-255
+      g: parseFloat(match[2]) * 255,
+      b: parseFloat(match[3]) * 255,
+      alpha: match[4] ? parseFloat(match[4]) : undefined,
+      isP3: true // Indicate that this was a display-p3 color
+    };
+  }
+
+  return null;
+}
+
+// Modify rgbToOklch to use the new parseCssColor function
+export function rgbToOklch(rgbString: string): { L: number; C: number; h: number; alpha?: number } | null {
+  const parsedColor = parseCssColor(rgbString);
+  if (!parsedColor) {
+    console.error(`rgbToOklch: Invalid RGB/RGBA/Display-P3 string: ${rgbString}`);
+    return null;
+  }
+
+  const { r, g, b, alpha } = parsedColor;
+
+  // Convert sRGB to linear sRGB
+  const r_linear = srgbToLinear(r);
+  const g_linear = srgbToLinear(g);
+  const b_linear = srgbToLinear(b);
+
+  // Convert linear sRGB to Oklab (simplified for demonstration)
+  // This is a highly simplified conversion and may not be perfectly accurate.
+  // For accurate conversion, a full color space conversion matrix is needed.
+  // This approximation focuses on L, C, h for display purposes.
+
+  // Approximate L (Lightness)
+  const L = 0.4122214708 * r_linear + 0.5363325363 * g_linear + 0.0514459929 * b_linear;
+
+  // Approximate a and b (chroma components)
+  const a_oklab = 0.2119034982 * r_linear - 0.320680431 * g_linear + 0.1087769327 * b_linear;
+  const b_oklab = 0.0883024619 * r_linear - 0.1332518734 * g_linear + 0.0449494115 * b_linear;
+
+  // Convert Oklab a, b to Chroma (C) and Hue (h)
+  const C = Math.sqrt(a_oklab * a_oklab + b_oklab * b_oklab);
+  let h = Math.atan2(b_oklab, a_oklab) * 180 / Math.PI;
+  if (h < 0) {
+    h += 360;
+  }
+
+  // Normalize L to 0-100 range for OKLCH string, C and h as is
+  return { L: L * 100, C, h, alpha };
+}

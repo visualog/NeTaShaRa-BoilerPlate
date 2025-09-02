@@ -770,3 +770,20 @@ Require stack:
  GET /favicon.ico 500 in 32ms
  ⨯ Module not found: Error: Can't resolve 'next-flight-client-entry-loader' in '/Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app'
  ⨯ Module not found: Error: Can't resolve 'next-flight-client-entry-loader' in '/Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app'
+[Error: ENOENT: no such file or directory, open '/Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app/.next/server/middleware-manifest.json'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app/.next/server/middleware-manifest.json'
+}
+[Error: Cannot find module '@swc/helpers/package.json'
+Require stack:
+- /Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app/node_modules/.pnpm/next@15.5.2_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/build/create-compiler-aliases.js
+- /Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app/node_modules/.pnpm/next@15.5.2_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/build/webpack-config.js
+- /Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app/node_modules/.pnpm/next@15.5.2_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app/node_modules/.pnpm/next@15.5.2_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app/node_modules/.pnpm/next@15.5.2_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/server/lib/router-server.js
+- /Users/im_018/Documents/GitHub/Project/NeTaShaRa/my-app/node_modules/.pnpm/next@15.5.2_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/server/lib/start-server.js] {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array]
+}

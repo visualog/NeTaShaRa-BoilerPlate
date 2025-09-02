@@ -1,0 +1,8 @@
+/*
+ * This file imports the Radix UI color scale for the brand color.
+ * Currently, it uses the 'blue' scale as a placeholder.
+ * You can change this to your actual brand color by replacing 'blue'
+ * with the desired Radix color name (e.g., 'violet', 'green', etc.).
+ */
+@import "@radix-ui/colors/blue.css";
+@import "@radix-ui/colors/blue-dark.css";
