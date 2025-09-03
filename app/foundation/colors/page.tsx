@@ -178,25 +178,21 @@ const tabs = [
     id: "semantic", 
     label: "Semantic", 
     description: "의미 기반 핵심 색상",
-    icon: "🎨"
   },
   { 
     id: "radix", 
     label: "Radix Scales", 
     description: "공식 Radix 색상 스케일",
-    icon: "🔧"
   },
   { 
     id: "brand", 
     label: "Brand System", 
     description: "NeTaShaRa 브랜드 색상",
-    icon: "🏷️"
   },
   { 
     id: "functional", 
     label: "Functional", 
     description: "상태 및 기능 색상",
-    icon: "⚡"
   },
 ] as const;
 
@@ -236,7 +232,6 @@ export default function ColorsPage() {
                   : "border-transparent text-muted-foreground hover:text-foreground hover:border-muted")
               }
             >
-              <span className="mr-2">{t.icon}</span>
               {t.label}
             </button>
           ))}
