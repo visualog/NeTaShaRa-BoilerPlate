@@ -4,7 +4,7 @@
 
 :root {
   /* Semantic Colors mapped to Radix */
-  --brand: var(--blue-9);
+  --brand: var(--brand-9);
   --brand-foreground: var(--blue-contrast);
   --bg: var(--gray-1);
   --fg: var(--gray-12);
@@ -69,7 +69,7 @@
 
 .dark {
   /* Semantic Colors mapped to Radix */
-  --brand: var(--blue-9);
+  --brand: var(--brand-9);
   --brand-foreground: var(--blue-contrast);
   --bg: var(--gray-1);
   --fg: var(--gray-12);

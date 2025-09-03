@@ -1,15 +1,17 @@
 "use client";
 
 import { useState, useEffect, useRef } from 'react';
-import { Copy, Check } from 'lucide-react';
+import { Copy, Check, Info } from 'lucide-react';
 import { oklchToHex, rgbToOklch } from '@/lib/color-converter';
 
 interface ColorSwatchProps {
   name: string;
   variable: string;
+  description?: string;
+  usage?: string[];
 }
 
-export function ColorSwatch({ name, variable }: ColorSwatchProps) {
+export function ColorSwatch({ name, variable, description, usage }: ColorSwatchProps) {
   const colorRef = useRef<HTMLDivElement>(null);
   const [displayOklch, setDisplayOklch] = useState<string>('');
   const [displayHex, setDisplayHex] = useState<string>('');
@@ -67,7 +69,21 @@ export function ColorSwatch({ name, variable }: ColorSwatchProps) {
     <div className="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden">
       <div ref={colorRef} className="h-24 w-full" style={{ backgroundColor: variable }} />
       <div className="p-4 space-y-3">
-        <h3 className="text-[16px] font-semibold leading-normal">{name}</h3>
+        <div>
+          <h3 className="text-[16px] font-semibold leading-normal">{name}</h3>
+          {description && (
+            <p className="text-sm text-muted-foreground mt-1">{description}</p>
+          )}
+        </div>
+        
+        {usage && usage.length > 0 && (
+          <div className="flex items-start gap-2 p-2 bg-muted/50 rounded text-xs">
+            <Info className="h-3 w-3 text-muted-foreground mt-0.5 flex-shrink-0" />
+            <div className="text-muted-foreground">
+              <span className="font-medium">사용:</span> {usage.join(', ')}
+            </div>
+          </div>
+        )}
         
         <div className="space-y-2">
           <div className="flex items-center justify-between">

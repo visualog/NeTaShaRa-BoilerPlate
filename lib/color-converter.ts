@@ -1,5 +1,7 @@
 export function oklchToHex(L: number, C: number, h: number, alpha?: number): string {
-  console.log(`oklchToHex input: L=${L}, C=${C}, h=${h}, alpha=${alpha}`);
+  // The L value is usually in the range [0, 100], but the conversion formula expects [0, 1].
+  L /= 100;
+
   // 1. Oklch to Oklab
   // Convert hue from degrees to radians
   const hRad = h * Math.PI / 180;
