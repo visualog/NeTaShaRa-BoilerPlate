@@ -3,6 +3,10 @@
 ## 2025년 9월 4일 목요일
 
 ### 작업 요약:
+- **글로벌 CSS 파일 분리:**
+  - `app/globals.css`에 있던 Radix UI 컬러 `@import` 규칙들을 `app/styles/radix-colors.css`로 분리함.
+  - 전역 스타일 선언(`:root`, `.dark`, `@theme inline` 등)들을 `app/styles/base.css`로 분리함.
+  - `app/globals.css`는 Tailwind CSS와 Pretendard 폰트 `@import`만 남기고, 새로 분리된 파일들을 `@import`하도록 수정함.
 - **CSS @import 규칙 위치 수정 (재시도 - 2차):**
   - `app/globals.css` 파일 내의 `@import` 규칙과 `:root` 선언 사이에 있던 모든 주석과 빈 줄을 제거하여 `@import` 규칙이 올바르게 처리되도록 추가적인 해결 시도함.
 - **CSS @import 규칙 위치 수정 (재시도):**
