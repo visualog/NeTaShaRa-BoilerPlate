@@ -56,10 +56,6 @@
 @import "@radix-ui/colors/amber-dark.css";
 @import "@radix-ui/colors/gold-dark.css";
 @import "@radix-ui/colors/bronze-dark.css";
-
-/* Light Mode Colors */
-/* Dark Mode Colors */
-
 :root {
   /* Semantic Colors mapped to Radix */
   --brand: var(--brand-9);
