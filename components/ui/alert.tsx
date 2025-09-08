@@ -8,9 +8,9 @@ const alertVariants = cva(
     variants: {
       intent: {
         info: "border-muted bg-muted/40 text-foreground",
-        warning: "border-[oklch(0.78_0.16_80)] bg-[oklch(0.96_0.03_80)]",
+        warning: "border-amber-7 bg-amber-3 text-amber-12",
         error: "border-destructive bg-destructive/10 text-foreground",
-        success: "border-[oklch(0.78_0.16_150)] bg-[oklch(0.96_0.03_150)]",
+        success: "border-green-7 bg-green-3 text-green-12",
       },
       dense: { true: "p-3 text-xs", false: "" },
     },

@@ -1,0 +1,44 @@
+/*
+ * 이 파일은 디자인 시스템의 전역 CSS 변수를 정의합니다.
+ * shadcn/ui가 사용하는 의미론적 이름(--background, --card 등)을
+ * tailwindcss-radix-colors-plugin이 생성하는 Radix 색상 변수(--radix-gray-1 등)에 매핑합니다.
+ */
+
+:root, .light {
+  --background: var(--radix-gray-1);
+  --foreground: var(--radix-gray-12);
+
+  --card: var(--radix-gray-1);
+  --card-foreground: var(--radix-gray-12);
+
+  --popover: var(--radix-gray-1);
+  --popover-foreground: var(--radix-gray-12);
+
+  --primary: var(--radix-blue-9);
+  --primary-foreground: white;
+
+  --secondary: var(--radix-slate-9);
+  --secondary-foreground: white;
+
+  --muted: var(--radix-gray-3);
+  --muted-foreground: var(--radix-gray-11);
+
+  --accent: var(--radix-violet-9);
+  --accent-foreground: white;
+
+  --destructive: var(--radix-red-9);
+  --destructive-foreground: white;
+
+  --border: var(--radix-gray-6);
+  --input: var(--radix-gray-7);
+  --ring: var(--radix-blue-8);
+
+  /* Radix Theme 컴포넌트에서 제공하는 radius 변수를 기본값으로 설정 */
+  --radius: var(--radius-2);
+}
+
+/*
+  참고: 다크 모드 색상 값은 tailwindcss-radix-colors-plugin이
+  .dark 클래스 내부에서 --radix-* 변수들을 자동으로 재정의해주므로,
+  이 파일에서 .dark 블록을 추가로 선언할 필요가 없습니다.
+*/
